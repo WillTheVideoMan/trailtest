@@ -4,9 +4,9 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Rat Brain Digital`,
-    description: `Small Brains. Big Ideas.`,
-    author: `@redbraindigital`,
+    title: `Trail Making Test`,
+    description: `Open, Accessible TMT Testing.`,
+    author: `@willthevideoman`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -32,17 +32,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ratbrain-media`,
-        short_name: `rbm`,
+        name: `trail-test`,
+        short_name: `tmt`,
         start_url: `/`,
         background_color: `#808080`,
-        theme_color: `#c50aeb`,
+        theme_color: `#58a8ff`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
