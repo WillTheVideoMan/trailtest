@@ -8,7 +8,7 @@ const Title = styled.h1`
   padding: 0 1rem;
   color: #7d7d7d;
   text-align: center;
-  font-family: "Staatliches", cursive;
+  font-family: "Copse", serif;
 `
 
 const Accent = styled.strong`

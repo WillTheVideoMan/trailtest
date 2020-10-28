@@ -5,8 +5,9 @@ import { Helmet } from "react-helmet"
 const GlobalStyle = createGlobalStyle`
   
   :root{
+    font-size: 18px;
     @media only screen and (min-width: 600px) {
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 
@@ -22,7 +23,7 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
 `
 
 const Wrapper = styled.div`
@@ -34,7 +35,7 @@ const IndexPage = ({ children }) => (
   <>
     <Helmet>
       <link
-        href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Copse&display=swap"
         rel="stylesheet"
       />
     </Helmet>

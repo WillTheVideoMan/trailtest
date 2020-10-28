@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 
-import Image from "../components/image"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
@@ -10,19 +9,18 @@ const Title = styled.h1`
   padding: 0 1rem;
   color: #808080;
   text-align: center;
-  font-family: "Staatliches", cursive;
+  font-family: "Copse", serif;
 `
 
 const Accent = styled.strong`
-  color: #c50aeb;
+  color: #58a8ff;
 `
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Welcome" />
-    <Image />
     <Title>
-      Small Brains. <Accent>Big</Accent> Ideas.
+      <Accent>Trail</Accent> Making Test.
     </Title>
   </Layout>
 )

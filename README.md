@@ -1,3 +1,3 @@
-# Rat Brain Digital
+# Trail Making Test
 
-Landing site for Rat Brain Digital.
+An open and progressive implementation of the Trail Making Test.
