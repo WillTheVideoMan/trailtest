@@ -21,7 +21,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `@willthevideoman/gatsby-plugin-ackee-tracker`,
+      resolve: `gatsby-plugin-ackee-tracker`,
       options: {
         domainId: process.env.ACKEE_DOMAIN_ID,
         server: process.env.ACKEE_SERVER,
@@ -38,7 +38,7 @@ module.exports = {
         background_color: `#808080`,
         theme_color: `#c50aeb`,
         display: `minimal-ui`,
-        icon: `src/images/ratbrainmedia-logo.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
