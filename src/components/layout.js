@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
   :root{
     font-size: 18px;
     @media only screen and (min-width: 600px) {
-      font-size: 20px;
+      font-size: 22px;
     }
   }
 
